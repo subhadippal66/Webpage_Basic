@@ -1,7 +1,8 @@
 h1
 {
 color: black ;
-
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
     background: #A6A297;
@@ -9,14 +10,24 @@ body{
 button{
     color: #F2EDDC;
     background-color: #F25C05;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 form{
     color: #A61414;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 input{
     color: #F2EDDC;
     background-color: #F2EDDC;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 select{
     background-color: #F2EDDC;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
