@@ -1,0 +1,22 @@
+h1
+{
+color: black ;
+
+}
+body{
+    background: #A6A297;
+}
+button{
+    color: #F2EDDC;
+    background-color: #F25C05;
+}
+form{
+    color: #A61414;
+}
+input{
+    color: #F2EDDC;
+    background-color: #F2EDDC;
+}
+select{
+    background-color: #F2EDDC;
+}
