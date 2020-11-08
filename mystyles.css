@@ -5,12 +5,12 @@ text-align: center;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 background-color: aqua;
 background-position: center;
-width: auto;
+width: 300px;
 padding: 15px;
 border: 1px solid black;
 border-radius: 10px ;
-margin-left: 600px;
-margin-right: 600px;
+margin-left: auto  ;
+margin-right: auto;
 }
 body{
     background: #A6A297;
