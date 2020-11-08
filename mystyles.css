@@ -3,6 +3,14 @@ h1
 color: black ;
 text-align: center;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: aqua;
+background-position: center;
+width: auto;
+padding: 15px;
+border: 1px solid black;
+border-radius: 10px ;
+margin-left: 600px;
+margin-right: 600px;
 }
 body{
     background: #A6A297;
@@ -12,6 +20,12 @@ button{
     background-color: #F25C05;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #A61414;
 }
 form{
     color: #A61414;
