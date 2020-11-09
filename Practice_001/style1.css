@@ -19,12 +19,20 @@ body{
     font-family: 'Raleway', sans-serif;
     color: #A3A0F2;
     margin-left: 1rem;
-
+    padding: .5rem;
+    border-radius: 10px;
     margin-right: 1rem;
     font-size: 2rem;
     margin-bottom: 5%;
     margin-top: 1%;
     flex-shrink: .5;
+    transition: all .25sec ease;
+}
+
+#upper div:hover{
+    background-color: #A3A0F2;
+    color: bisque;
+    cursor: pointer;
 }
 
 #rect{
@@ -37,7 +45,10 @@ body{
     font-weight: bold;
     font-size: 8rem;
     color: #CFCEF2;
-    margin: 5%;
+    margin: 2% 5%;
+    padding: 5%;
+    flex: 1 1 80%;
+    text-align: center;
 }
 #button{
     display: flex;
