@@ -21,6 +21,7 @@ body{
     font-size: 2rem;
     margin-bottom: 5%;
     margin-top: 1%;
+    flex-shrink: .5;
 }
 
 #rect{
