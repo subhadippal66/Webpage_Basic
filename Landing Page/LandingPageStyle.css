@@ -44,21 +44,21 @@ body{
     margin: 0.5rem 7rem 0rem 7rem;
 }
 
-#upper span{
+#upper span a{
     color: #105178;
     font-weight: 800;
     padding: .3rem 1rem;
-    
+    text-decoration: none;
     border-radius: 15px;
 }
 
-#upper #login{
+#upper #login a{
     color: white;
     background-color: #FF9F5C;
     transition: all .02sec ease;
     border: .1rem #FF9F5C solid;
 }
-#upper #login:hover{
+#upper #login a:hover{
     cursor: pointer;
     color: #FF9F5C;
     background-color: white;
@@ -69,7 +69,7 @@ body{
     
 }
 
-#upper span:hover{
+#upper span a:hover{
     cursor: pointer;
     background-color: #105178;
     color: white;
@@ -156,8 +156,12 @@ body{
         justify-content: flex-start;
         margin: 0%;
     }
-    #upper span{
+    #upper span a{
         font-size: .8rem;
+    }
+    #upper #login{
+        border: 0;
+        margin-top: .5rem;
     }
 }
 
@@ -171,7 +175,7 @@ body{
         font-size: .4rem;
         letter-spacing: .4rem;       
     }
-    #upper span{
+    #upper span a{
         
         font-size: .6rem;
     }
