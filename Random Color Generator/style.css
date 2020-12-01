@@ -1,0 +1,51 @@
+
+
+html, body{
+    width: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Nunito', sans-serif;
+    margin-top: 2rem;
+    border-width: .2rem;
+    border-color: black;
+    border-style: solid;
+    padding: 1.5rem;
+    border-radius: 5rem;
+    background-color: white;
+}
+button{
+    width: 15rem;
+    height: 8rem;
+    border-radius: 5rem;
+    border-style: solid;
+    border-width: .2rem;
+    border-color: black;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem;
+    background-color: #7FF0CC;
+    color: black;
+    margin-top: 10rem;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow:0px 0px 30px 10px #417A68;
+}
+
+button:active{
+    outline: none;
+    border: none;
+}
+button:focus {
+    outline:0;
+}
+
